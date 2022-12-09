@@ -9,23 +9,22 @@ int main(void)
 
 {
 
-	char letter;
+	char c;
 
+	char d;
 
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-
-					putchar(letter);
-
-
-
-	for (letter = 'A'; letter <= 'Z'; letter++)
-
-					putchar(letter);
-
-
-
-				 putchar('\n');
-				 return (0);
-
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'a') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'z') {
+			putchar(d);
+			d++;
+		}
+	putchar('\n');
+	return (0);
 }
