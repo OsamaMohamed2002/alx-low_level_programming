@@ -38,7 +38,7 @@ int checkp(int i, int lg, char *s)
 }
 
 /**
-* is _palindrome - checks if a string is a palindrome
+* is_palindrome - checks if a string is a palindrome
 * @s: is a string
 * Return: return 1 if the string is a palindrome or 0 otherwise
 **/
